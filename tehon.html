@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="grid.css"> -->
+    <!-- 
+        ※スタイルシートを呼び出す方法
+        ①<link>タグを使う 上記参照
+        ②<style>タグを使う 下記参照
+        ③タグにstyle属性をつける 例：<p style=""></p>
+
+         ②と③はファイルが増えた時に各ページごとにしか
+         設定できないため、htmlがごちゃごちゃしてくる
+         なので、②③はあまり使われない
+         特に③は混乱を招くので使わない方がいい
+
+         ①②③を同時に使った時、最優先されるのは③
+         ①と②では後に書いた方が優先される（上書きされる）
+         優先順位について webクリエイターp206
+     -->
+    <title>Document</title>
+    <style>
+        /* この中がcssになる */
+        .container {
+            display: grid;
+            grid-template-columns: 100px 324px 216px 324px 216px 100px;
+            gap: 0px;
+            grid-template-rows: 100px 380px 430px;
+            padding: 10px;
+        }
+        .item1 {
+            background: gray;
+            color: #fff;
+            grid-column: 1 / 2;
+            grid-row: 1 / 6;
+        }
+        .item2 {
+            background-color: blue;
+            color: #fff;
+            grid-column: 2 / 4;
+            grid-row: 1 / 3;
+        }
+        .item3 {
+            background: #0bd;
+            color: #fff;
+            grid-column: 2 / 3;
+            grid-row: 3 / 4;
+        }
+        .item4 {
+            background: black;
+            color: #fff;
+            grid-column: 3 / 4;
+            grid-row: 3 / 4;
+        }
+        .item5 {
+            background: red;
+            color: #fff;
+            grid-column: 4 / 6;
+            grid-row: 1 / 2;
+        }
+        .item6 {
+            background: green;
+            color: #fff;
+            grid-column: 4 / 5;
+            grid-row: 2 / 4;
+        }
+        .item7 {
+            background: cornflowerblue;
+            color: #fff;
+            grid-column: 5 / 6;
+            grid-row: 2 / 4;
+        }
+        .item8 {
+            background: orange;
+            color: #fff;
+            grid-column: 6 / 7;
+            grid-row: 1 / 6;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item1">Item 1</div>
+        <div class="item2">Item 2</div>
+        <div class="item3">Item 3</div>
+        <div class="item4">Item 4</div>
+        <div class="item5">Item 5</div>
+        <div class="item6">Item 6</div>
+        <div class="item7">Item 7</div>
+        <div class="item8">Item 8</div>
+    </div>
+</body>
+</html>
