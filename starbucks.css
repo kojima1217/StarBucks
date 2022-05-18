@@ -39,7 +39,7 @@ header {
     grid-auto-rows: 100px;
     margin: 0;
     padding: 4px;
-    background-color: #fffaf0;
+    background-color: #F8F8F7;
 }
 
 .m1 {
@@ -59,7 +59,7 @@ header {
 #sub {
     width: 840px;
     height: 960px;
-    background-color: #f5f5f5;
+    background-color: #F8F8F7;
 }
 
 .news {

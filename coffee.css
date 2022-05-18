@@ -1,0 +1,35 @@
+body {
+    margin-left: 100px;
+}
+
+.top {
+    display: flex;
+    width: 1000px;
+    height: 350px;
+    background-color: #EDF8F8;
+}
+
+.how {
+    width: 500px;
+    padding-top: 100px;
+    text-align: center;
+    color: #055137;
+}
+
+.coffee {
+    width: 500px;
+    padding-top: 50px;
+}
+
+.bottom {
+    display: flex;
+    width: 1000px;
+    height: 500px;
+    background-color: #EDF8F8;
+}
+
+.bo {
+    width: 180px;
+    height: 500px;
+    margin-left: 45px;
+}
