@@ -1,8 +1,8 @@
 body {
-    /* width: 1880px;
-    height: 960px; */
-    width: 1920px;
-    height: 1080px;
+    width: 1880px;
+    height: 960px;
+    /* width: 1920px;
+    height: 1080px; */
     display: grid;
     grid-template-columns: 100px 840px 840px 100px;
     gap: 0px;
@@ -20,6 +20,12 @@ header {
 
 .menu {
     margin: 20px 0 0 10px;
+    font-size: 85%;
+}
+
+.menu1 {
+    margin-top: 40px;
+    margin-left: 5px;
 }
 
 #main {
@@ -33,6 +39,7 @@ header {
     grid-auto-rows: 100px;
     margin: 0;
     padding: 4px;
+    background-color: #fffaf0;
 }
 
 .m1 {
@@ -52,11 +59,13 @@ header {
 #sub {
     width: 840px;
     height: 960px;
+    background-color: #f5f5f5;
 }
 
 .news {
-    padding: 10px 0 0 20px;
-    color: burlywood;
+    padding: 20px 0 0 20px;
+    color: #cd853f;
+    font-size: 70%;
 }
 
 .tile {
@@ -64,7 +73,8 @@ header {
 }
 
 .whats {
-    margin: 10px 0px 0px 20px;
+    margin: 20px 0px 0px 20px;
+    font-size: 85%;
 } 
 
 .brewing {
@@ -72,11 +82,11 @@ header {
 }
 
 .t1 {
-    width: 300px;
+    width: 260px;
     height: 140px;
     margin: 10px;
     display: flex;
-    background-color: #fffaf0;
+    background-color: white;
 }
 
 .t2 {
@@ -85,17 +95,19 @@ header {
 
 .t3 {
     margin: 5px;
+    font-size: 70%;
 }
 
 .pick {
-    margin: 10px 0px 0px 20px;
+    margin: 20px 0px 0px 20px;
+    font-size: 85%;
 }
 
 .p1 {
     width: 180px;
     display: flex;
     margin: 10px;
-    background-color: #fffaf0;
+    background-color: white;
 }
 
 .p2 {
@@ -109,6 +121,7 @@ header {
 
 .press {
     margin: 10px 0px 0px 20px;
+    font-size: 85%;
 }
 
 footer {
